@@ -9,7 +9,6 @@ export class AlterProviderFieldToProviderId1616890482727 implements MigrationInt
             name: 'provider_id',
             type: 'uuid',
             isNullable: true,
-
         }));
 
         await queryRunner.createForeignKey('appointments', new TableForeignKey({
